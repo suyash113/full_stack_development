@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radio, dropdown, textarea</title>
+    </head>
+    <body>
+        <h1>Hotel Feedback Form</h1>
+        <form >
+            <h2>Are you from Inside USA or Outside USA?</h2>
+            <label for="inusa">Inside:</label>
+            <input type="radio" name="loc" id="inusa" value="inside">
+
+            <label for="outusa">Outside:</label>
+            <input type="radio" name="loc" id="outusa" value="outside">
+
+            <h2>How was the Service?</h2>
+            <select name="stars">
+                <option value="great">3</option>
+                <option value="okay">2</option>
+                <option value="bad">1</option>
+            </select>
+            <h2>Any other Feedback</h2>
+            <textarea name="mytext" rows="8" cols="80"></textarea>
+            <input type="submit">
+        </form>
+    </body>
+</html>
