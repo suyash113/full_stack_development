@@ -1,0 +1,15 @@
+body{
+    background:url(https://i0.wp.com/trailsofinju.com/wp-content/uploads/2020/04/Hogenakkal-Falls-Niagara-of-India.jpeg?resize=1024%2C768&ssl=1);
+    background-repeat:no-repeat;
+}
+
+div{
+    background-color: brown;
+    border-color: aquamarine;
+    border-width: 10px;
+    border-style: dashed;
+}
+
+span{
+    background: chartreuse;
+}
