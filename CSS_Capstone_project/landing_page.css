@@ -1,0 +1,55 @@
+body{
+    background-color: #40E0D0;
+}
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#first{
+    text-align: center;
+    margin: auto;
+}
+#second{
+    text-align: center;
+    margin: auto;
+}
+
+.art{
+    margin: auto ;
+}
+td{
+    background-color: #00172b;
+    height: 600px;
+    width: 1400px;
+}
+
+.names{
+    margin: auto;
+}
+
+tr{
+    align-items: center;
+}
+label{
+    color: white;
+    text-align: center;
+}
+
+input{
+    align-items: center;
+}

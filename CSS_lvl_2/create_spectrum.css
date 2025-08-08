@@ -1,0 +1,43 @@
+h1{
+    font-family: 'GrotesqueBourgeoisieRegular';
+    text-align: center;
+    color: #F9F7F3;
+}
+.art{
+    margin: auto;
+}
+
+td{
+    background-color: black;
+    height: 300px;
+    width: 150px;
+    border: 6px solid black;
+}
+
+#a{
+    
+    background-color:#0FA3B1;
+   
+}       
+#b{
+    background-color:#B5E2FA;
+    
+}
+#c{
+    background-color:#F9F7F3;
+   
+}
+#d{
+
+    background-color:#EDDEA4;
+   
+}
+#e{
+
+    background-color:#F7A072;
+   
+}
+
+body{
+    background-color: black;
+}

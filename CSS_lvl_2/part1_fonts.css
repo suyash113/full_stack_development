@@ -1,0 +1,17 @@
+h1{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: "Barrio", system-ui;
+    color: blue;
+}
+
+body{
+    font-size: 20px;
+}
+
+#two{
+    font-family: 'AlexBrushRegular';
+    font-size: 2.0em;
+}
