@@ -3,26 +3,26 @@
     <head>
         <title>Start-Up Landing page</title>
         <link rel="stylesheet" href="landing_page.css">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     </head>
     <body>
         <table class="art">
-            <tr>
-                <td id="a">
+            <tr id="a">
+                <td id="b">
                     <h1>Welcome to the Landing Page</h1>
                     <h2>We're a Start-Up that Does Something</h2>
                     <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia dolore, deserunt ea mollitia est minus dignissimos, reprehenderit, repudiandae pariatur quae necessitatibus soluta tempore voluptatibus corrupti. Impedit voluptatibus perferendis officia commodi.</p>
                     <p id="second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ullam iste nemo beatae, dolor expedita illo. Dolor distinctio dolorum provident consequuntur quis hic facere nihil quaerat nostrum natus, incidunt possimus.</p>
                     <h3>Sign Up for Our Upcoming Launch!</h3>
-                    <form>
+                    <form action="thank_you_page.html" method="post">
                         <table class="names">
-                            <tr><label for="firstname">First Name:</label></tr>
-                            <tr><input type="text" required></tr>
-                            <tr><label for="lastname">Last Name:</label></tr>   
-                            <tr><input type="text" required></tr>   
-                            <tr><label for="email">Email:</label></tr>
-                            <tr><input type="email" required></tr>
-                            <tr><input type="submit" value="Sign me up!"></tr>
+                            <tr><td><label for="firstname">First Name:</label></td></tr>
+                            <tr><td><input type="text" style="width: 300px; height: 30px;" required ></td></tr>
+                            <tr><td><label for="lastname">Last Name:</label></td></tr>   
+                            <tr><td><input type="text" style="width: 300px; height: 30px;" required></td></tr>   
+                            <tr><td><label for="email">Email:</label></td></tr>
+                            <tr><td><input type="email" style="width: 300px; height: 30px;" required></td></tr>
+                            <tr><td><input type="submit" class="rounded-button" value="Sign me up!" style="width: 100px; height:50px"></td></tr>
                         </table>
                     </form>
                 </td>

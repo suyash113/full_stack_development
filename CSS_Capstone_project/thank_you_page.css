@@ -1,0 +1,26 @@
+ body{
+    background-color: #40E0D0;
+}
+
+.art{
+    margin: auto ;
+}
+#b{
+    background-color: #00172b;
+    height: 200px;
+    width: 1400px;
+    border-bottom:50px solid #40E0D0;
+}
+
+h2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: auto;
+}
+h3{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 50px 20px;
+}
