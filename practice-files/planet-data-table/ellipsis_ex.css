@@ -12,9 +12,16 @@ h1 {
 }
 
 body {
+  font-family: "BitcountPropSingle", sans-serif;
   height: 100vh;
   overflow: hidden;
   display: grid;
   place-items: center;
   background: #ccc;
+}
+
+@font-face {
+    font-family: "BitcountPropSingle";
+    src: url("./font/BitcountPropSingle-Regular.woff2") format(".woff2");
+    font-display: swap;
 }
