@@ -42,3 +42,44 @@ function makeAddingFunction(firstNumber) {
 
 const add5 = makeAddingFunction(5);
 console.log(makeAddingFunction(5)(2)); // 7
+
+
+// constructor--------------------------------
+function User(name) {
+  this.name = name;
+}
+
+User.prototype.sayHi = function() {
+  console.log("Hi, I am " + this.name);
+};
+
+const u1 = new User("Suyash");
+const u2 = new User("Aman");
+
+console.log(u1.sayHi())
+console.log(u2.sayHi())
+
+console.log(u1.sayHi === u2.sayHi);
+
+console.log(u1.hasOwnProperty("sayHi"));
+
+// factory function---------------------------
+function createUser(name) {
+  return {
+    name,
+    sayHi() {
+      console.log("Hi, I am " + name);
+    }
+  };
+}
+
+const u3 = createUser("Suyash");
+const u4 = createUser("Aman");
+
+
+console.log(u3.sayHi())
+console.log(u4.sayHi())
+
+console.log(u3.sayHi === u4.sayHi);
+
+console.log(u3.hasOwnProperty("sayHi"));
